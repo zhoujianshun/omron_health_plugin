@@ -1,0 +1,6 @@
+framework module OMRONLib {
+  umbrella header "OMRONLib.h"
+  export *
+
+  module * { export * }
+}
