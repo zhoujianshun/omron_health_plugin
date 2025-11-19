@@ -1,8 +1,8 @@
 name: omron_health_plugin
 description: "A Flutter plugin for integrating OMRON health devices (blood pressure monitors, etc.) via Bluetooth. Supports device scanning, pairing, and data synchronization."
 version: 0.0.1
-homepage: https://github.com/your-username/omron_health_plugin
-repository: https://github.com/your-username/omron_health_plugin
+homepage: https://github.com/zhoujianshun/omron_health_plugin
+repository: https://github.com/zhoujianshun/omron_health_plugin
 
 environment:
   sdk: ^3.9.2

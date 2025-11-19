@@ -444,8 +444,8 @@ flutter run
 ## 🔗 相关链接
 
 - [pub.dev](https://pub.dev/packages/omron_health_plugin)
-- [GitHub](https://github.com/your-username/omron_health_plugin)
-- [问题反馈](https://github.com/your-username/omron_health_plugin/issues)
+- [GitHub](https://github.com/zhoujianshun/omron_health_plugin)
+- [问题反馈](https://github.com/zhoujianshun/omron_health_plugin/issues)
 
 ---
 
