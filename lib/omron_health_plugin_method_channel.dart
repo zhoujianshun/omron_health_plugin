@@ -79,9 +79,9 @@ class MethodChannelOmronHealthPlugin extends OmronHealthPluginPlatform {
     return OmronPlugin.instance.stopScan();
   }
   
-  /// 开始扫描同步状态的设备
+  /// 开始扫描数据同步的设备，用于同步血压计测量数据
   /// 
-  /// [devices] 已绑定的设备列表，扫描这些设备的同步状态
+  /// [devices] 已绑定的设备列表，扫描这些设备
   /// [scanPeriod] 扫描周期（秒），最小1s，最大300s，默认60秒
   /// 
   /// 返回一个Stream，推送扫描事件（设备发现、扫描完成等）
@@ -105,7 +105,7 @@ class MethodChannelOmronHealthPlugin extends OmronHealthPluginPlatform {
     return OmronPlugin.instance.startSyncScan(devices, scanPeriod: scanPeriod);
   }
   
-  /// 停止同步扫描
+  /// 停止数据同步扫描
   /// 
   /// 调用此方法会停止当前正在进行的同步扫描
   @override
